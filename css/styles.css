@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  background-color: hsl(0deg, 0%, 100%);
+  text-align: center;
+}
+@media (min-width: 0) {
+  body {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 75px -45px, bottom;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0% 0%, 100% 100%;
+    max-width: 1024px;
+    margin: 4rem auto;
+    height: 100vh;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .main-and-reviews {
+    display: flex;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .main-and-reviews .main {
+    width: 440px;
+  }
+}
+body .container .main-and-reviews .main h1 {
+  color: hsl(300deg, 43%, 22%);
+  margin: 4rem 4rem 1rem 4rem;
+  font-size: 3rem;
+}
+@media (min-width: 1024px) {
+  body .container .main-and-reviews .main h1 {
+    text-align: left;
+    margin-left: 2rem;
+  }
+}
+body .container .main-and-reviews .main p {
+  color: hsl(303deg, 10%, 53%);
+  line-height: 1.35rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+@media (min-width: 1024px) {
+  body .container .main-and-reviews .main p {
+    text-align: left;
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .reviews {
+    margin-top: 6rem;
+    margin-left: 4rem;
+  }
+}
+body .container .reviews .review-card {
+  background-color: hsl(300deg, 24%, 96%);
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 0.75rem;
+  border-radius: 0.35rem;
+  padding: 0.75rem 0 0.75rem 0;
+}
+@media (min-width: 1024px) {
+  body .container .reviews .review-card {
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .reviews .review-card:nth-child(2) {
+    position: relative;
+    left: 25px;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .reviews .review-card:nth-child(3) {
+    position: relative;
+    left: 50px;
+  }
+}
+body .container .reviews .review-card .review-detail {
+  margin-top: 0.5rem;
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+}
+@media (min-width: 1024px) {
+  body .container .reviews .review-card .review-detail {
+    margin-top: 0rem;
+    padding-left: 2rem;
+  }
+}
+@media (min-width: 1024px) {
+  body .container .reviews .review-card {
+    display: flex;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+  }
+}
+body .feedback {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+}
+@media (min-width: 1024px) {
+  body .feedback {
+    display: flex;
+    gap: 1rem;
+  }
+}
+body .feedback .feedback-card {
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 0.35rem;
+  color: hsl(300deg, 24%, 96%);
+  margin-bottom: 0.75rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+@media (min-width: 1024px) {
+  body .feedback .feedback-card:nth-child(2) {
+    position: relative;
+    top: 15px;
+  }
+}
+@media (min-width: 1024px) {
+  body .feedback .feedback-card:nth-child(3) {
+    position: relative;
+    top: 30px;
+  }
+}
+body .feedback .feedback-card .profile-section {
+  display: flex;
+  margin: 0rem 2rem 0 2rem;
+  padding-top: 1rem;
+}
+body .feedback .feedback-card .profile-section .profile-image {
+  display: flex;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+body .feedback .feedback-card .profile-section .profile-image img {
+  border-radius: 3rem;
+  width: 2.5rem;
+}
+body .feedback .feedback-card .profile-section .profile-details .profile-details-name {
+  margin: 0;
+}
+body .feedback .feedback-card .profile-section .profile-details .profile-details-verified {
+  margin: 0;
+  color: hsl(333deg, 80%, 67%);
+}
+body .feedback .feedback-card .feedback-details {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}/*# sourceMappingURL=styles.css.map */
